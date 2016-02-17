@@ -1,0 +1,10 @@
+1. What does float do?
+The css property float, is used to designate the position of an element. The float values can be: Left (will float the elemment to the left) or Right (will float the element to the right). Float is used to implement web page layout, and to make text wrap around and element with regards to which direction the element floats.
+
+2. How can you clear sides of a floating element?
+There is another css style called clear. Clear can be set to both, left right, and none. If the clear property is set to left or right, the element will be placed below the designated float position. Setting clear to the value: both, will place the element below both the right and left floating elements.
+https://css-tricks.com/all-about-floats/
+
+3. Are css properties case sensitive?
+CSS properties are case-insensitive, although for XHTML they are case-sensitive.
+http://reference.sitepoint.com/css/casesensitivity
