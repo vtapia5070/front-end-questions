@@ -1,0 +1,8 @@
+1. Why do you need doctype?
+Doctype is used to instruct the browser on how to read and display the markup language with reference to the HTML version.
+
+2. What are data-* attributes used for?
+data-* attributes are customizable attributes that allow us to store extra data in HTML tags. The data attributed can be manipulated and accessed by Javascript and selectors for css styling.
+
+3. How can you generate a public key in html?
+The Keygen tag (<keygen>) can be used to generate a private and public key when forms are submitted.
