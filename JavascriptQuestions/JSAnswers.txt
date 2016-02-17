@@ -1,0 +1,12 @@
+1. What are the differences between null and undefined?
+  Undefined means "not defined" when a variable reference is declared or being looked up and does not have a set value. It is a type of Undefined.
+
+  Null means "not set", and is usually a pointer that shows intent of setting a variable assignment to empty.
+
+2. What are the differences between == and ===?
+  Triple equals (===) or strict equals is an operator that will compare the type and value.
+
+  Double equals (==) is an operator that will coerce value types to see if the values are equal.
+
+3. How would you compare two objects in JavaScript?
+  Since comparison operators won't work without coercion, a comparison function is needed to compare two objects. I would do this by using the Object.keys() method, and iteratively compare each property and value seperately.
