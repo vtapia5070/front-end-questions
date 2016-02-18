@@ -1,0 +1,5 @@
+1. Is there any difference between window and document?
+The document object is a property of the window document, the global object. The window object represents the browser window, the doument object represents the HTML document file being loaded into the browser.
+
+2. Does document.onload and window.onload fire at the same time?
+3. Is attribute similar to property?
