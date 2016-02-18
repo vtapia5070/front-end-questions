@@ -2,4 +2,8 @@
 The document object is a property of the window document, the global object. The window object represents the browser window, the doument object represents the HTML document file being loaded into the browser.
 
 2. Does document.onload and window.onload fire at the same time?
+Document on lload fires when the html document is loaded, not including external content(images, javascript, css). Window.onload fires when the html document and external files are done loading.
+
 3. Is attribute similar to property?
+Each DOM node is linked to an object with properties that can be retrieved and updated through Javascript, and have various types (string, boolean, etc.). Some examples of properties that might be linked to a DOM node are: href, className, ID. Attributes are similar to properties, but are only of the string type. They are declared within the HTML itself and are customizable.
+http://lucybain.com/blog/2014/attribute-vs-property/
