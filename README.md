@@ -10,11 +10,15 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 1. Why do you need doctype?
 2. What are data-* attributes used for?
 3. How can you generate a public key in html?
+4. What's the difference between standards mode and quirks mode?
+5. Describe the difference between <script>, <script async> and <script defer>.
 
 ## CSS Questions
 1. What does float do?
 2. How can you clear sides of a floating element?
 3. Are css properties case sensitive?
+4. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+5. Explain CSS sprites, and how you would implement them on a page or site.
 
 ## DOM Questions
 1. Is there any difference between window and document?
