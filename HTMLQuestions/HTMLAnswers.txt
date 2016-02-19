@@ -6,3 +6,11 @@ data-* attributes are customizable attributes that allow us to store extra data 
 
 3. How can you generate a public key in html?
 The Keygen tag (<keygen>) can be used to generate a private and public key when forms are submitted.
+
+4. What's the difference between standards mode and quirks mode?
+Using HTML5's !DOCTYPE declaration will run the HTML page in standards mode (or at standard in regards to HTML and CSS specs). Quirks mode, will runt he HTML page with different behavior to specific html tags and css styling. Quirks mode follows non-standards for Navigator 4 and IE 5.
+
+5. Describe the difference between <script>, <script async> and <script defer>.
+Script is an HTML tag that can embed Javascript or make a reference to an external script. Script tage without async or defer tags, execute immediately before the browser continues to parse the page. Async is a  new attribute in HTML5 that whil execute the Javaascript asyncrounously, while the browser is still parsing and is fully loaded. The defer attribute will execute the script when the page has finished parsing. 
+http://www.w3schools.com/tags/att_script_async.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
