@@ -8,3 +8,10 @@ https://css-tricks.com/all-about-floats/
 3. Are css properties case sensitive?
 CSS properties are case-insensitive, although for XHTML they are case-sensitive.
 http://reference.sitepoint.com/css/casesensitivity
+
+4. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+CSS reset stylesheets aim to improve consistency of styles amongst various browsers and will reset any styles initially provided by a browser. Normalize css stylesheets will not reset all elements, but redefine certain styles like forms, headers, ordered lists, and block quotes, leaving others for your convenience.
+
+5. Explain CSS sprites, and how you would implement them on a page or site.
+CSS image sprites is the use of multiple images inside one image. This reduces the amount of server requests needed for multiple images. You can use css styling to set the height, width, and position of the image wanted.
+
