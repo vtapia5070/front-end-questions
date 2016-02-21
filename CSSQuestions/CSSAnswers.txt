@@ -1,17 +1,28 @@
 1. What does float do?
-The css property float, is used to designate the position of an element. The float values can be: Left (will float the elemment to the left) or Right (will float the element to the right). Float is used to implement web page layout, and to make text wrap around and element with regards to which direction the element floats.
+  The css property float, is used to designate the position of an element. The float values can be: Left (will float the elemment to the left) or Right (will float the element to the right). Float is used to implement web page layout, and to make text wrap around and element with regards to which direction the element floats.
 
 2. How can you clear sides of a floating element?
-There is another css style called clear. Clear can be set to both, left right, and none. If the clear property is set to left or right, the element will be placed below the designated float position. Setting clear to the value: both, will place the element below both the right and left floating elements.
-https://css-tricks.com/all-about-floats/
+  There is another css style called clear. Clear can be set to both, left right, and none. If the clear property is set to left or right, the element will be placed below the designated float position. Setting clear to the value: both, will place the element below both the right and left floating elements.
+  https://css-tricks.com/all-about-floats/
 
 3. Are css properties case sensitive?
-CSS properties are case-insensitive, although for XHTML they are case-sensitive.
-http://reference.sitepoint.com/css/casesensitivity
+  CSS properties are case-insensitive, although for XHTML they are case-sensitive.
+  http://reference.sitepoint.com/css/casesensitivity
 
 4. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
-CSS reset stylesheets aim to improve consistency of styles amongst various browsers and will reset any styles initially provided by a browser. Normalize css stylesheets will not reset all elements, but redefine certain styles like forms, headers, ordered lists, and block quotes, leaving others for your convenience.
+  CSS reset stylesheets aim to improve consistency of styles amongst various browsers and will reset any styles initially provided by a browser. Normalize css stylesheets will not reset all elements, but redefine certain styles like forms, headers, ordered lists, and block quotes, leaving others for your convenience.
 
 5. Explain CSS sprites, and how you would implement them on a page or site.
-CSS image sprites is the use of multiple images inside one image. This reduces the amount of server requests needed for multiple images. You can use css styling to set the height, width, and position of the image wanted.
+  CSS image sprites is the use of multiple images inside one image. This reduces the amount of server requests needed for multiple images. You can use css styling to set the height, width, and position of the image wanted.
 
+6. Explain the CSS selector heirarchy.
+  ID (#ID), class (.className), tag type (div), Adjacent siblings (h2 + p), Child (li > ul), Descendant (ul a), Universal (*), Attribute ([type="text"]), Pseudo-classes/-elements (a:hover)
+
+7. What are the display property values in CSS?
+  Inline - displays an element as an inline element like the span tag
+    respects left and right margins and padding (not top and bottom), cannot have width and height, elements sit to left and right
+  block - displays an element as a block element like the p tag
+    respects top bottom right and left margin and padding, force a line break after the block element.
+  inline-block - displays an element as an as a
+    allow other elements to sit to right and left, respects top and bottom margins and paddings, respects height and width.
+  http://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
