@@ -19,6 +19,7 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 3. Are css properties case sensitive?
 4. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 5. Explain CSS sprites, and how you would implement them on a page or site.
+6. Explain the CSS selector heirarchy.
 
 ## DOM Questions
 1. Is there any difference between window and document?
@@ -29,3 +30,4 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 1. Verify a prime number?
 2. Find all prime factors of a number?
 3. Get nth Fibonacci number?
+
