@@ -18,7 +18,7 @@
 6. Explain the CSS selector heirarchy.
   ID (#ID), class (.className), tag type (div), Adjacent siblings (h2 + p), Child (li > ul), Descendant (ul a), Universal (*), Attribute ([type="text"]), Pseudo-classes/-elements (a:hover)
 
-7. What are the display property values in CSS?
+7. What are the differences between display: inline, block, and inline-block? 
   Inline - displays an element as an inline element like the span tag
     respects left and right margins and padding (not top and bottom), cannot have width and height, elements sit to left and right
   block - displays an element as a block element like the p tag
@@ -26,3 +26,13 @@
   inline-block - displays an element as an as a
     allow other elements to sit to right and left, respects top and bottom margins and paddings, respects height and width.
   http://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
+
+8. What are the other display property values in CSS?
+  Flex: displays an element as a block-level flex container. (inline-flex, inline-table)
+  table: lets elements behave like a table (table-caption, table-column-group, table-header-group, table-footer-group, table-row-group, table-cell, tbale-column, table-row)
+  none: element will not be displayed 
+    (another way is to use visibility: hidden which will not display an elemement but the element will still take up space and effect the layout)
+  initial: element will be set to it's default style property value.
+  inherit: element will inheret from its parent element
+  http://www.w3schools.com/cssref/pr_class_display.asp
+  
