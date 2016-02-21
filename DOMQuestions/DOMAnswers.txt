@@ -1,9 +1,20 @@
 1. Is there any difference between window and document?
-The document object is a property of the window document, the global object. The window object represents the browser window, the doument object represents the HTML document file being loaded into the browser.
+  The document object is a property of the window document, the global object. The window object represents the browser window, the doument object represents the HTML document file being loaded into the browser.
 
 2. Does document.onload and window.onload fire at the same time?
-Document on lload fires when the html document is loaded, not including external content(images, javascript, css). Window.onload fires when the html document and external files are done loading.
+  Document on lload fires when the html document is loaded, not including external content(images, javascript, css). Window.onload fires when the html document and external files are done loading.
 
 3. Is attribute similar to property?
-Each DOM node is linked to an object with properties that can be retrieved and updated through Javascript, and have various types (string, boolean, etc.). Some examples of properties that might be linked to a DOM node are: href, className, ID. Attributes are similar to properties, but are only of the string type. They are declared within the HTML itself and are customizable.
-http://lucybain.com/blog/2014/attribute-vs-property/
+  Each DOM node is linked to an object with properties that can be retrieved and updated through Javascript, and have various types (string, boolean, etc.). Some examples of properties that might be linked to a DOM node are: href, className, ID. Attributes are similar to properties, but are only of the string type. They are declared within the HTML itself and are customizable.
+  http://lucybain.com/blog/2014/attribute-vs-property/
+
+4. What are the different ways to get an element from DOM?
+If the element has an ID: document.getElementById("")
+To get a list of elements with a specific tag name: document.getElementsByTagName() - or a list of elements and children with a specific class name: document.getElementsByClassName();
+If you wanted to get an element by adjacent sibling, parent node, first child, or last child: element.nextSibling() / element.nextSiblingNode(), element.parentNode(), element.firstChild(), element.firstChildNode(), element.lastChild(), element.lastChildNode().
+http://www.w3schools.com/jsref/dom_obj_all.asp
+
+5. What is the fastest way to select elements by using css selectors?
+ID selectors are faster than class selectors. However, if a ID selector is paired with a tag selector (ex: #myID a {..}) The performance is slower than classes. Reason: the browser reads this selector statement from right to left, so in the example above: the browser will find all anchor tags, then eliminate the anchor tags that do not fall under the ID classification. 
+http://oli.jp/2011/ids/
+
