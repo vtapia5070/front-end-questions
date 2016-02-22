@@ -5,6 +5,7 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 1. What are the differences between null and undefined?
 2. What are the differences between == and ===?
 3. How would you compare two objects in JavaScript?
+4. What is the Javascript event loop?
 
 ## HTML Questions
 1. Why do you need doctype?
@@ -20,14 +21,19 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 4. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 5. Explain CSS sprites, and how you would implement them on a page or site.
 6. Explain the CSS selector heirarchy.
+7. What is the fastest way to select elements by using css selectors?
+8. What are the differences between display: inline, block, and inline-block? 
+9. What are the other display property values in CSS?
+
 
 ## DOM Questions
 1. Is there any difference between window and document?
 2. Does document.onload and window.onload fire at the same time?
 3. Is attribute similar to property?
+4. What are the different ways to get an element from DOM?
+5. Describe event propagation.
 
 ## Javascript Algorithm Questions
 1. Verify a prime number?
-2. Find all prime factors of a number?
-3. Get nth Fibonacci number?
+2. Get nth Fibonacci number?
 
