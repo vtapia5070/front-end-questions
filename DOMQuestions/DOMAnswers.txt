@@ -15,6 +15,12 @@
   http://www.w3schools.com/jsref/dom_obj_all.asp
 
 5. Describe event propagation.
-  Event propagation is loosly used as a synonym for event bubbling, however covers wider context of event bubbling and includes event capturing as well.
+  Event propagation describes how events fire off, and in which order, in regards to children or it's parent which all are nested under an event handler. There are two phases: event capturing and event bubbling which can be set by a boolean argument in the eventListener method. Also, different browsers support one or both of the event propagation models.
   http://www.javascripter.net/faq/eventbubbling.htm
 
+6. Describe the differences between event bubbling and event capturing.
+  Capturing - the parent DOM element should fire the event first when itself or nested child elements are fired. (think "trickling down", netscape's model).
+  Event bubbling - the innermost child that fires the event, is fired before the outer most parent element. (think "bubbling up", mozilla)
+  Some browsers are support both methods, and when an event is triggered, it is first captured at the outtermost element, then when it reaches the innermost triggered element, it bubbles back up.
+  Stop propagtions can be used to stop propagation and you can interupt the propagation to manipulate other elements in the DOM.
+  http://www.quirksmode.org/js/events_order.html

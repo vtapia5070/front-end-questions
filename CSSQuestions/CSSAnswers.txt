@@ -18,7 +18,11 @@
 6. Explain the CSS selector heirarchy.
   ID (#ID), class (.className), tag type (div), Adjacent siblings (h2 + p), Child (li > ul), Descendant (ul a), Universal (*), Attribute ([type="text"]), Pseudo-classes/-elements (a:hover)
 
-7. What are the differences between display: inline, block, and inline-block? 
+7. What is the fastest way to select elements by using css selectors?
+  ID selectors are faster than class selectors. However, if a ID selector is paired with a tag selector (ex: #myID a {..}) The performance is slower than classes. Reason: the browser reads this selector statement from right to left, so in the example above: the browser will find all anchor tags, then eliminate the anchor tags that do not fall under the ID classification. 
+  http://oli.jp/2011/ids/
+
+8. What are the differences between display: inline, block, and inline-block? 
   Inline - displays an element as an inline element like the span tag
     respects left and right margins and padding (not top and bottom), cannot have width and height, elements sit to left and right
   block - displays an element as a block element like the p tag
@@ -27,7 +31,7 @@
     allow other elements to sit to right and left, respects top and bottom margins and paddings, respects height and width.
   http://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
 
-8. What are the other display property values in CSS?
+9. What are the other display property values in CSS?
   Flex: displays an element as a block-level flex container. (inline-flex, inline-table)
   table: lets elements behave like a table (table-caption, table-column-group, table-header-group, table-footer-group, table-row-group, table-cell, tbale-column, table-row)
   none: element will not be displayed 

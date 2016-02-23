@@ -32,6 +32,7 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 3. Is attribute similar to property?
 4. What are the different ways to get an element from DOM?
 5. Describe event propagation.
+6. Describe the differences between event bubbling and event capturing.
 
 ## Javascript Algorithm Questions
 1. Verify a prime number?
