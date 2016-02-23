@@ -10,3 +10,10 @@
 
 3. How would you compare two objects in JavaScript?
   Since comparison operators won't work without coercion, a comparison function is needed to compare two objects. I would do this by using the Object.keys() method, and iteratively compare each property and value seperately.
+
+4. What is the Javascript call stack?
+  The call stack is a data structure in CHrome's V8 internals that keeps track of where in the Javascript code, the browser is at. It is in the form of a stack which is memory that when a function is invoked, it will bee added to the top of the call stack. When that function ends or returns, it is removed from the call stack.
+  https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+5. What is the Javascript event loop?
+  The javascript event loop consists of a memory heap, stack, and event queue. The heap collects all data that needs to be stored in memory. The stack collects the current function or all current functions being invoked and when each funtion ends or returns, will be removed from the end of stack. When an asyncronous or blocking function is invoked, it will be invoked, in the meantime the stack will continue to run other lines of code. While the stack is active, and the the asyncronous or blocking operation is complete it will be placed in the queue. When the stack is clear the  queue contains result will be pushed into the stack

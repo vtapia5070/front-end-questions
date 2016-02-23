@@ -5,7 +5,8 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 1. What are the differences between null and undefined?
 2. What are the differences between == and ===?
 3. How would you compare two objects in JavaScript?
-4. What is the Javascript event loop?
+4. What is the Javascript call stack?
+5. What is the Javascript event loop?
 
 ## HTML Questions
 1. Why do you need doctype?
