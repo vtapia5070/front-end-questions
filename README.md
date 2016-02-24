@@ -14,6 +14,9 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 3. How can you generate a public key in html?
 4. What's the difference between standards mode and quirks mode?
 5. Describe the difference between <script>, <script async> and <script defer>.
+6. What are the differences between div and span?
+7. How would you differentiate between div, section, and article?
+8. What is progressive rendering?
 
 ## CSS Questions
 1. What does float do?
