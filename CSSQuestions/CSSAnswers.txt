@@ -40,3 +40,9 @@
   inherit: element will inheret from its parent element
   http://www.w3schools.com/cssref/pr_class_display.asp
   
+10. What are the differences between visibility hidden and display none?
+
+11. What are the properties related to box model?
+
+12. Does overflow: hidden create a new block formatting context
+

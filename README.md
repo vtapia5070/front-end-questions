@@ -25,7 +25,9 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 7. What is the fastest way to select elements by using css selectors?
 8. What are the differences between display: inline, block, and inline-block? 
 9. What are the other display property values in CSS?
-
+10. What are the differences between visibility hidden and display none?
+11. What are the properties related to box model?
+12. Does overflow: hidden create a new block formatting context?
 
 ## DOM Questions
 1. Is there any difference between window and document?
