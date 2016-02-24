@@ -35,14 +35,17 @@
   Flex: displays an element as a block-level flex container. (inline-flex, inline-table)
   table: lets elements behave like a table (table-caption, table-column-group, table-header-group, table-footer-group, table-row-group, table-cell, tbale-column, table-row)
   none: element will not be displayed 
-    (another way is to use visibility: hidden which will not display an elemement but the element will still take up space and effect the layout)
   initial: element will be set to it's default style property value.
   inherit: element will inheret from its parent element
   http://www.w3schools.com/cssref/pr_class_display.asp
   
 10. What are the differences between visibility hidden and display none?
+  Display: none will hide an element from the page, visibility: hidden will hide the element from the page but maintain the pace it uses.
 
 11. What are the properties related to box model?
+  The box model has 3 main properties: margin, border, padding, and content. Of these four properties, there are edges which describes the perimeter.
+  https://www.w3.org/TR/CSS2/box.html#box-dimensions
+
 
 12. Does overflow: hidden create a new block formatting context
 
