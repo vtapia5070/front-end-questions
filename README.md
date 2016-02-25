@@ -30,7 +30,7 @@ Answers to the following interview questions, based off [github.com/khan4019/fro
 9. What are the other display property values in CSS?
 10. What are the differences between visibility hidden and display none?
 11. What are the properties related to box model?
-12. Does overflow: hidden create a new block formatting context?
+12. What is block formatting context?
 
 ## DOM Questions
 1. Is there any difference between window and document?
