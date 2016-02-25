@@ -16,6 +16,9 @@
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
 
 6. What are the differences between div and span?
+  Span is an inline style element that is great for inline styles.
+  Div is a block level style element that is used to seperate groups of elements by causing a line break in html, great for containers.
+  http://cssreset.com/understanding-the-difference-between-div-and-span/
 
 7. How would you differentiate between div, section, and article?
 
