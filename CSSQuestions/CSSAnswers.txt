@@ -46,6 +46,8 @@
   The box model has 3 main properties: margin, border, padding, and content. Of these four properties, there are edges which describes the perimeter.
   https://www.w3.org/TR/CSS2/box.html#box-dimensions
 
-
-12. Does overflow: hidden create a new block formatting context
+12. What is block formatting context?
+  A new block formatting context will be created when any element has any of the following syles: floats (elements where float is not none), absolutely positioned elements (elements where position is absolute or fixed), inline-blocks (elements with display: inline-block), table cells (elements with display: table-cell, which is the default for HTML table cells), table captions (elements with display: table-caption which is the default for HTML table captions), elements where overflow has a value other than visible, and flex boxes (elements with display: flex or inline-flex).
+  http://www.sitepoint.com/understanding-block-formatting-contexts-in-css/
+  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
